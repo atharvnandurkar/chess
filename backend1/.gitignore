@@ -1,6 +1,41 @@
-node_modules/
+# dependencies
+node_modules
 
-dist/
-build/
-
+# env files
 .env
+.env.local
+.env.production
+
+# build output
+dist
+build
+.next
+out
+
+# logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE
+.vscode
+.idea
+
+# coverage
+coverage
+
+# turbo
+.turbo
+
+# prisma generated
+.prisma
+
+# misc
+*.log
