@@ -18,7 +18,6 @@ const GameOver: React.FC = () => {
         }
     }
 
-
     const content = () => (
         <React.Fragment>
             <h1>Game over</h1>
